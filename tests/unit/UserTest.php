@@ -63,6 +63,6 @@ class UserTest extends TestCase
 		$this->assertArrayHasKey('email', $email_variables);
 
 		$this->assertEquals($email_variables['full_name'], 'Billy Joe');
-		$this->assertEquals($email_variables['email'], 'billy2@codecourse.com');
+		$this->assertEquals($email_variables['email'], 'billy@codecourse.com');
 	}
 }
